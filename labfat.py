@@ -21,5 +21,5 @@ def fib(n):
     return b
 
 if __name__ == "__main__":
-    n = int(input("Enter the index of the Fibonacci number: "))
+    n = 2
     print(fib(n))
