@@ -1,5 +1,17 @@
-def fib(n):
+"""
+This module calculates Fibonacci numbers.
+"""
 
+def fib(n):
+    """
+    Calculate the Fibonacci number for the given index.
+
+    Args:
+        n (int): Index of the Fibonacci number to calculate.
+
+    Returns:
+        int: The Fibonacci number at the given index.
+    """
     if n in (0, 1):
         return n
 
