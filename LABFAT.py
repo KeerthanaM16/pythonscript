@@ -1,9 +1,13 @@
 def fib(n):
-    if(n==0 or n==1):
+
+    if n in (0, 1):
         return n
-    elif(n==2):
-        return 1
     else:
-        return fib(n-1)+fib(n-2)
-n=int(input())
-print(fib(n))
+        a, b = 0, 1
+        for _ in range(2, n + 1):
+            a, b = b, a + b
+        return b
+
+if __name__ == "__main__":
+    n = int(input("Enter the index of the Fibonacci number: "))
+    print(fib(n))
