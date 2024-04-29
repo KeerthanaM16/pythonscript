@@ -1,4 +1,3 @@
-
 def fib(n):
 
     if n in (0, 1):
