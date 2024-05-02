@@ -21,5 +21,5 @@ def fib(index):
     return b
 
 if __name__ == "__main__":
-    user_input = int(input("Enter the index of the Fibonacci number: "))
+    user_input = 7
     print(fib(user_input))
